@@ -35,3 +35,12 @@
 - `stock-blog-coffee-education-1487490204.jpg` — Getty Images asset 1487490204
 - `stock-blog-roasting-process-1373429752.jpg` — iStock asset 1373429752
 - Usage note: client-selected 509 × 339 preview assets. Replace with the licensed production originals before public launch.
+
+## Retail partner logos
+
+- Joe’s Produce Gourmet Market — client-provided brand asset.
+- Knight’s Market — official Knight’s Restaurants website: https://knightsrestaurants.com/
+- The Proving Grounds Coffee & Ice Cream — official Proving Grounds website: https://provinggroundscoffee.com/
+- Holiday Market Canton — local vector recreation of the client-provided legacy lockup.
+- Westborn Market — official Westborn Market website: https://westbornmarket.com/
+- Lowes Foods — official Lowes Foods media kit: https://www.lowesfoods.com/about-us/media/media-kit

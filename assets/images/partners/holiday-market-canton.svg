@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 190" role="img" aria-labelledby="title desc">
+  <title id="title">Holiday Market Canton</title>
+  <desc id="desc">Holiday Market wordmark with the HM monogram and Canton location name.</desc>
+  <rect width="620" height="190" fill="#fff"/>
+  <g fill="#121212" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="10" y="106" font-size="50" textLength="220" lengthAdjust="spacingAndGlyphs">HOLIDAY</text>
+    <text x="390" y="106" font-size="50" textLength="220" lengthAdjust="spacingAndGlyphs">MARKET</text>
+  </g>
+  <circle cx="310" cy="84" r="58" fill="#fff" stroke="#121212" stroke-width="8"/>
+  <circle cx="310" cy="84" r="45" fill="#121212"/>
+  <text x="310" y="102" fill="#fff" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="48" font-weight="900" letter-spacing="-4" text-anchor="middle">HM</text>
+  <text x="310" y="174" fill="#121212" font-family="Arial Black, Arial, Helvetica, sans-serif" font-size="27" font-weight="900" letter-spacing="2" text-anchor="middle">CANTON</text>
+</svg>

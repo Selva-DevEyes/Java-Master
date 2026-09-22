@@ -34,8 +34,13 @@ for (const file of files) {
       const result = formatWord(word, index, visibleWords);
       index += 1;
       return result;
-    }).join("");
+    }).join("")
+      .replace(/\.(?=\s+[A-Z])/g, " —")
+      .replace(/\.(\s*)$/, "$1");
     return `<${tag}${attributes}>${formatted}</${tag}>`;
   });
+  html = html
+    .replace(/[ \t]+(?=\r?\n)/g, "")
+    .replace(/(?:\r?\n)+$/, "\n");
   await writeFile(path, html, "utf8");
 }

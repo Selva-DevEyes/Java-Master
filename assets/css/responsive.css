@@ -114,7 +114,8 @@
   .hero .button-row .button { width: 100%; }
   .payback-grid { grid-template-columns: 1fr; }
   .partner-image-grid { grid-template-columns: 1fr; gap: 20px; }
-  .partner-img-card { height: 160px; }
+  .partner-logo-card { min-height: 184px; padding: 28px 20px 24px; }
+  .partner-logo-card__logo { height: 126px; }
   .theater-cinematic__card { padding: 0; }
   .process, .product-grid, .catalog-grid, .story-grid, .support-grid, .specs { grid-template-columns: 1fr; }
   .process__item, .process__item:nth-child(n+4) { min-height: 0; grid-column: auto; }

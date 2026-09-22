@@ -9,7 +9,7 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 const chromePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const pages = ["index.html", "roasters.html", "jm-1500.html", "profect.html", "coffee.html", "success-stories.html", "success-story-detail.html", "about.html", "contact.html"];
 const widths = [1920, 1440, 1280, 1024, 768, 760, 480, 430, 390, 360];
-const mime = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp" };
+const mime = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp", ".svg": "image/svg+xml" };
 
 const server = createServer(async (request, response) => {
   try {
@@ -213,6 +213,7 @@ try {
           const sections = [
             ["highlights", ".feature-highlights", ".feature-highlights"],
             ["process", ".process", ".process"],
+            ["partners", ".section--retail-partners", ".section--retail-partners"],
             ["benefits", ".section--dark", "#benefits-title"],
             ["testimonial", ".testimonial-section", ".testimonial-section"],
             ["request-demo", ".request-demo", ".request-demo"]

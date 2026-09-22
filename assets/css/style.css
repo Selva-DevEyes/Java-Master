@@ -488,27 +488,31 @@ p { max-width: 66ch; }
 .purchase-cta__phone-link:hover::after, .purchase-cta__phone-link:focus-visible::after { background: #f4b27a; transform: scaleX(1); }
 .purchase-cta__note { margin-top: 13px; color: rgba(255, 255, 255, .62); font-size: .92rem; line-height: 1.5; }
 
-/* Section 6: Image-Backed Retail Partner Cards */
+/* Section 6: Retail Partner Logo Gallery */
 .section--retail-partners { position: relative; overflow: hidden; background: linear-gradient(145deg, #f3eee7 0%, #ebe2d7 100%); }
 .section--retail-partners::before { position: absolute; width: min(46vw, 680px); aspect-ratio: 1; top: -58%; right: -13%; border: 1px solid rgba(151, 100, 69, .12); border-radius: 50%; box-shadow: 0 0 0 72px rgba(151, 100, 69, .04), 0 0 0 144px rgba(151, 100, 69, .025); pointer-events: none; content: ""; }
 .section--retail-partners .container { position: relative; z-index: 1; }
 .section--retail-partners .section__head { padding-bottom: clamp(24px, 3vw, 34px); border-bottom: 1px solid rgba(71, 48, 35, .14); }
 .section--retail-partners .section__head h2 { max-width: 650px; }
 .section--retail-partners .section__head > p { max-width: 540px; }
-.partner-image-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 36px; }
-.partner-img-card { position: relative; height: 190px; overflow: hidden; isolation: isolate; border: 1px solid rgba(255, 255, 255, .72); border-radius: 18px; background: #211713; box-shadow: 0 14px 34px rgba(54, 35, 24, .12), inset 0 1px 0 rgba(255, 255, 255, .34); transition: transform var(--card-transition), box-shadow var(--card-transition), border-color var(--card-transition); }
-.partner-img-card::after { position: absolute; z-index: 4; inset: 0; border: 1px solid rgba(255, 255, 255, .14); border-radius: inherit; pointer-events: none; content: ""; }
-.partner-img-card:hover { transform: translateY(-6px); border-color: rgba(224, 122, 66, .72); box-shadow: 0 22px 46px rgba(54, 35, 24, .2), 0 8px 18px rgba(201, 111, 61, .1); }
-.partner-img-card__bg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; }
-.partner-img-card__bg img { width: 100%; height: 100%; object-fit: cover; filter: saturate(.86) contrast(1.04); transition: transform 700ms cubic-bezier(.2,.7,.2,1), filter 500ms ease; }
-.partner-img-card:hover .partner-img-card__bg img { filter: saturate(1) contrast(1.06); transform: scale(1.065); }
-.partner-img-card__overlay { position: absolute; z-index: 2; inset: 0; background: linear-gradient(180deg, rgba(20, 13, 9, .08) 12%, rgba(20, 13, 9, .3) 48%, rgba(18, 11, 8, .94) 100%); transition: background 400ms ease; }
-.partner-img-card:hover .partner-img-card__overlay { background: linear-gradient(180deg, rgba(20, 13, 9, .02) 8%, rgba(20, 13, 9, .22) 46%, rgba(18, 11, 8, .92) 100%); }
-.partner-img-card__content { position: relative; z-index: 3; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end; height: 100%; padding: 22px; text-align: left; }
-.partner-img-card__content::before { width: 34px; height: 2px; margin-bottom: 10px; background: #e07a42; border-radius: 999px; content: ""; transition: width var(--ease), background var(--ease); }
-.partner-img-card:hover .partner-img-card__content::before { width: 52px; background: #f4b27a; }
-.partner-img-card__name { margin-bottom: 8px; color: #fff; font-family: var(--font-title); font-size: 1.45rem; font-weight: 750; letter-spacing: -.025em; line-height: 1.08; text-shadow: 0 2px 12px rgba(0,0,0,.5); }
-.partner-img-card__tag { display: inline-flex; padding: 5px 9px; border: 1px solid rgba(244, 198, 163, .24); border-radius: 999px; background: rgba(22, 14, 10, .42); color: #f4c6a3; font-size: .7rem; font-weight: 700; letter-spacing: .07em; line-height: 1.2; text-transform: uppercase; backdrop-filter: blur(8px); }
+.partner-image-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 36px; }
+.partner-logo-card { position: relative; display: grid; min-height: 210px; place-items: center; overflow: hidden; isolation: isolate; padding: 34px 28px 26px; border: 1px solid rgba(96, 65, 46, .13); border-radius: 18px; background: rgba(255, 255, 255, .9); box-shadow: 0 14px 34px rgba(54, 35, 24, .08), inset 0 1px 0 #fff; transition: transform var(--card-transition), box-shadow var(--card-transition), border-color var(--card-transition), background var(--card-transition); }
+.partner-logo-card::before { position: absolute; z-index: -1; width: 148px; aspect-ratio: 1; right: -86px; bottom: -96px; border-radius: 50%; background: rgba(201, 111, 61, .09); transition: transform 500ms ease; content: ""; }
+.partner-logo-card::after { position: absolute; right: 22px; bottom: 18px; left: 22px; height: 2px; border-radius: 999px; background: linear-gradient(90deg, var(--copper) 0 34px, rgba(151, 100, 69, .12) 34px 100%); content: ""; }
+.partner-logo-card:hover { transform: translateY(-6px); border-color: rgba(201, 111, 61, .42); background: #fff; box-shadow: 0 24px 48px rgba(54, 35, 24, .14), 0 8px 18px rgba(201, 111, 61, .08); }
+.partner-logo-card:hover::before { transform: scale(1.24); }
+.partner-logo-card__index { position: absolute; top: 16px; right: 18px; color: rgba(71, 48, 35, .42); font-size: .7rem; font-weight: 800; letter-spacing: .12em; line-height: 1; }
+.partner-logo-card__logo { display: grid; width: 100%; height: 142px; place-items: center; overflow: hidden; }
+.partner-logo-card__logo img { display: block; width: auto; height: auto; max-width: min(88%, 230px); max-height: 126px; object-fit: contain; filter: saturate(.9); transition: transform 500ms cubic-bezier(.2,.7,.2,1), filter 350ms ease; }
+.partner-logo-card:hover .partner-logo-card__logo img { transform: scale(1.035); filter: saturate(1); }
+.partner-logo-card--proving { background: #664638; border-color: rgba(102, 70, 56, .52); }
+.partner-logo-card--proving:hover { background: #704d3e; border-color: rgba(244, 178, 122, .58); }
+.partner-logo-card--proving::before { background: rgba(255, 255, 255, .08); }
+.partner-logo-card--proving::after { background: linear-gradient(90deg, #f4b27a 0 34px, rgba(255, 255, 255, .2) 34px 100%); }
+.partner-logo-card--proving .partner-logo-card__index { color: rgba(255, 255, 255, .58); }
+.partner-logo-card__logo--crop { height: 126px; }
+.partner-logo-card__logo--crop img { width: min(82%, 150px); max-width: none; max-height: none; transform: none; }
+.partner-logo-card--proving:hover .partner-logo-card__logo--crop img { transform: scale(1.04); }
 
 /* Section 7: Benefit Cards (Why Businesses Choose Java Master) */
 .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
@@ -562,7 +566,7 @@ p { max-width: 66ch; }
 .sensory-icon { width: 16px; height: 16px; flex-shrink: 0; stroke: #f4b27a; fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
 .theater-cinematic__title { color: #fff; font-size: clamp(2rem, 3.2vw, 2.85rem); line-height: 1.18; margin-bottom: 20px; text-wrap: balance; text-shadow: 0 2px 14px rgba(0, 0, 0, .75); }
 .theater-cinematic__paragraphs { max-width: 580px; margin-bottom: 28px; }
-.theater-cinematic__lead { color: #fce1cc; font-size: 16px; font-weight: 600; line-height: 1.6; margin-bottom: 14px; text-wrap: pretty; text-shadow: 0 2px 10px rgba(0, 0, 0, .7); }
+.theater-cinematic__lead { color: #fce1cc; font-size: 16px; line-height: 1.6; margin-bottom: 14px; text-wrap: pretty; text-shadow: 0 2px 10px rgba(0, 0, 0, .7); }
 .theater-cinematic__paragraphs p { color: rgba(255, 255, 255, .92); font-size: 16px; line-height: 1.65; margin-bottom: 14px; text-wrap: pretty; text-shadow: 0 2px 10px rgba(0, 0, 0, .7); }
 .theater-cinematic__paragraphs p:last-child { margin-bottom: 0; }
 .theater-cinematic__action { display: flex; justify-content: flex-start; }
@@ -621,6 +625,6 @@ p { max-width: 66ch; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { scroll-behavior: auto; transition-duration: .01ms; animation-duration: .01ms; animation-iteration-count: 1; }
-  .testimonial:hover, .feature-highlights .stat:hover, .process__item:hover, .product-card:hover, .product-card:focus-within, .benefit-card:hover, .catalog-card:hover, .catalog-card:focus-within, .story-card:hover, .story-card:focus-within, .partner-img-card:hover, .support-feature-card:hover, .button:hover { transform: none; }
+  .testimonial:hover, .feature-highlights .stat:hover, .process__item:hover, .product-card:hover, .product-card:focus-within, .benefit-card:hover, .catalog-card:hover, .catalog-card:focus-within, .story-card:hover, .story-card:focus-within, .partner-logo-card:hover, .support-feature-card:hover, .button:hover { transform: none; }
   .reveal { opacity: 1; transform: none; }
 }
