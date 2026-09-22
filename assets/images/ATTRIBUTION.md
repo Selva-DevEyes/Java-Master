@@ -34,7 +34,13 @@
 - `stock-blog-coffee-economics-2283416326.jpg` — iStock asset 2283416326
 - `stock-blog-coffee-education-1487490204.jpg` — Getty Images asset 1487490204
 - `stock-blog-roasting-process-1373429752.jpg` — iStock asset 1373429752
-- Usage note: client-selected 509 × 339 preview assets. Replace with the licensed production originals before public launch.
+- `about-flames-steaming-beans-1472821027.jpg` — iStock asset 1472821027 — https://www.istockphoto.com/photo/steaming-coffee-beans-in-movement-gm1472821027-503080081
+- `about-flames-roasted-beans-smoke-1504611854.jpg` — iStock asset 1504611854 — https://www.istockphoto.com/photo/roast-coffee-beans-with-faint-smoke-or-steam-from-baking-roast-coffee-beans-before-gm1504611854-523305929
+- `about-cta-roaster-beans-6667771.jpg` — Vecteezy asset 6667771 — https://www.vecteezy.com/photo/6667771-fresh-coffee-beans-on-a-roaster-oven-to-dry-or-roast-coffee-beans-before-being-ground-into-powder-to-make-fresh-coffee-3d-rendering
+- `about-cta-smoked-beans-35237992.jpg` — Vecteezy asset 35237992 — https://www.vecteezy.com/photo/35237992-roast-coffee-beans-with-faint-smoke-or-steam-from-baking-roast-coffee-beans-before-blending-or-grinding-them-to-make-fresh-coffee-espresso-or-drip
+- `about-cta-bean-sack-14553061.jpg` — Vecteezy asset 14553061 — https://www.vecteezy.com/photo/14553061-close-up-of-a-blended-blend-of-dark-roast-and-a-medium-roast-of-roasted-coffee-beans-in-a-brown-sack-bag
+- `about-cta-coffee-harvest-32331186.jpg` — Vecteezy asset 32331186 — https://www.vecteezy.com/photo/32331186-harvesting-coffee-berries-by-agriculturist-hands-red-coffee-beans-ripening-in-hand-farmer-fresh-coffee-red-berry-branch-agriculture-on-coffee-tree
+- Usage note: client-selected preview assets in their available preview dimensions. Replace with the licensed production originals before public launch.
 
 ## Retail partner logos
 
@@ -51,3 +57,8 @@
 - Source: https://javamaster.com/cdn/shop/t/4/assets/roaster-img3.webp
 - Usage: Homepage “Engineered Roasters for the Modern World” section
 - Optimization: Official Java Master CDN image delivered locally at 752 × 1103.
+
+## About page supplied photography
+
+- `about-jim-suddath.jpg` / `about-jim-suddath-640.jpg` — user-supplied portrait reference, prepared as responsive JPEG assets for the About page.
+- `about-air-roasting-control.jpg` / `about-air-roasting-control-960.jpg` — user-supplied café touchscreen reference, prepared as responsive JPEG assets for the About page.

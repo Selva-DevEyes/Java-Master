@@ -327,22 +327,43 @@
   document.querySelectorAll("form[data-validate]").forEach((form) => {
     const fields = [...form.querySelectorAll("input, select, textarea")];
     fields.forEach((field) => field.addEventListener("blur", () => validateField(field)));
+    fields.forEach((field) => field.addEventListener("input", () => {
+      if (field.getAttribute("aria-invalid") === "true") validateField(field);
+    }));
     form.addEventListener("submit", (event) => {
       event.preventDefault();
-      const valid = fields.filter((field) => field.required).every(validateField);
+      const fieldsToValidate = fields.filter((field) => field.required || field.value.trim());
+      const valid = fieldsToValidate.map(validateField).every(Boolean);
       const status = form.querySelector(".form-status");
       if (!valid) {
-        if (status) status.textContent = "Please correct the highlighted fields.";
+        if (status) {
+          status.classList.add("is-error");
+          status.textContent = "Please correct the highlighted fields.";
+        }
         form.querySelector("[aria-invalid='true']")?.focus();
         return;
       }
+      if (form.hasAttribute("data-integration-pending")) {
+        if (status) {
+          status.classList.add("is-error");
+          status.textContent = "Submission is not available yet. Please call (336) 990-5051.";
+        }
+        return;
+      }
       const submit = form.querySelector("button[type='submit']");
+      status?.classList.remove("is-error");
       if (submit) { submit.disabled = true; submit.textContent = "Sending…"; }
       if (status) status.textContent = "Demo request prepared. Backend delivery must be connected before launch.";
       window.setTimeout(() => {
         if (submit) { submit.disabled = false; submit.textContent = "Request my demo"; }
       }, 900);
       // Client-side demo only: server-side validation, CRM/email delivery, spam protection and privacy logging require backend integration.
+    });
+  });
+
+  document.querySelectorAll("a[href='#request-demo']").forEach((link) => {
+    link.addEventListener("click", () => {
+      window.setTimeout(() => document.querySelector("#request-demo [tabindex='-1']")?.focus({ preventScroll: true }), reduceMotion ? 0 : 450);
     });
   });
 
