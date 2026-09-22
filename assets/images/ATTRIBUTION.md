@@ -44,3 +44,10 @@
 - Holiday Market Canton — local vector recreation of the client-provided legacy lockup.
 - Westborn Market — official Westborn Market website: https://westbornmarket.com/
 - Lowes Foods — official Lowes Foods media kit: https://www.lowesfoods.com/about-us/media/media-kit
+
+## `jm-1500-red-black-roasters.jpg`
+
+- Image: Java Master red and black commercial fluid-bed air roasters
+- Source: https://javamaster.com/cdn/shop/t/4/assets/roaster-img3.webp
+- Usage: Homepage “Engineered Roasters for the Modern World” section
+- Optimization: Official Java Master CDN image delivered locally at 752 × 1103.

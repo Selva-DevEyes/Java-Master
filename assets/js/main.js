@@ -161,7 +161,9 @@
   });
 
   navMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenus));
-  window.addEventListener("scroll", () => header?.classList.toggle("is-scrolled", window.scrollY > 18), { passive: true });
+  const updateHeaderState = () => header?.classList.toggle("is-scrolled", window.scrollY > 18);
+  updateHeaderState();
+  window.addEventListener("scroll", updateHeaderState, { passive: true });
   window.addEventListener("resize", () => {
     if (window.innerWidth > 900) closeMenus();
   });

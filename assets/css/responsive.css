@@ -9,14 +9,15 @@
 
 @media (max-width: 900px) {
   :root { --header-height: 80px; --section-padding: var(--section-padding-tablet); }
-  .nav { min-height: var(--header-height); gap: 10px; }
+  .site-header { padding-block: 8px; }
+  .nav { min-height: calc(var(--header-height) - 16px); gap: 10px; padding-inline: 14px; }
   .nav__actions { margin-left: auto; }
   .header-phone, .nav__actions .button { display: none; }
   .nav-toggle { display: block; }
-  .nav__menu { position: fixed; inset: var(--header-height) 0 auto; max-height: calc(100svh - var(--header-height)); padding: 18px max(20px, calc((100vw - var(--container)) / 2)) 28px; display: block; visibility: hidden; overflow-y: auto; opacity: 0; transform: translateY(-10px); border: 0; border-bottom: 1px solid rgba(244,178,122,.16); border-radius: 0 0 20px 20px; background: rgba(27,18,14,.985); color: #fff; box-shadow: 0 24px 54px rgba(12,7,4,.32); backdrop-filter: blur(24px); transition: visibility var(--ease), opacity var(--ease), transform var(--ease); }
+  .nav__menu { position: fixed; inset: var(--header-height) 0 auto; max-height: calc(100svh - var(--header-height)); padding: 18px max(20px, calc((100vw - var(--container)) / 2)) 28px; display: block; visibility: hidden; overflow-y: auto; opacity: 0; transform: translateY(-10px); border: 0; border-bottom: 1px solid rgba(244,178,122,.16); border-radius: 0 0 20px 20px; background: rgba(27,18,14,.94); color: #fff; box-shadow: 0 24px 54px rgba(12,7,4,.32); -webkit-backdrop-filter: blur(24px); backdrop-filter: blur(24px); transition: visibility var(--ease), opacity var(--ease), transform var(--ease); }
   .nav__menu.is-open { visibility: visible; opacity: 1; transform: none; }
   .nav__link, .dropdown__toggle { width: 100%; min-height: 50px; justify-content: space-between; padding-inline: 12px; border-bottom: 1px solid rgba(255,255,255,.11); border-radius: 8px; color: rgba(255,255,255,.84); font-size: 1rem; }
-  .nav__link[aria-current="page"], .dropdown__toggle.is-active { background: rgba(201,111,61,.14); }
+  .nav__link[aria-current="page"], .dropdown__toggle.is-active { background: transparent; }
   .nav__link::after { display: none; }
   .dropdown__menu { position: static; display: none; min-width: 0; padding: 6px 0 12px 16px; visibility: visible; opacity: 1; transform: none; border: 0; background: transparent; color: #fff; box-shadow: none; backdrop-filter: none; }
   .dropdown__menu a { padding-block: 12px; }
@@ -45,8 +46,9 @@
   .roi, .split, .contact-layout { grid-template-columns: 1fr; }
   .story-brand { grid-template-columns: 1fr; gap: 32px; }
   .partner-image-grid { grid-template-columns: repeat(2, 1fr); gap: 18px; }
-  .tech-roasters__grid { grid-template-columns: 1fr; gap: 32px; }
-  .tech-roasters__header { grid-template-columns: 1fr; gap: 20px; }
+  .tech-roasters-layout { grid-template-columns: 1fr; gap: 44px; }
+  .tech-roasters__visual, .tech-roasters__content { width: min(100%, 720px); margin-inline: auto; }
+  .tech-roasters__image-matte { min-height: 0; }
   .split--curated-beans { grid-template-columns: 1fr; gap: 32px; }
   .curated-beans__media { min-height: 340px; max-height: 460px; }
   .feature-grid, .support-cards-grid, .blog-grid { grid-template-columns: 1fr; }
@@ -107,8 +109,14 @@
   .container { width: min(100% - 32px, var(--container)); }
   .section--curated-beans > .container { width: 100%; }
   .section--curated-beans .curated-beans__content { width: min(calc(100% - 32px), var(--container)); }
-  .brand__logo { width: auto; height: 64px; }
+  .brand__logo { width: auto; height: 52px; }
   .site-footer .brand__logo { height: 80px; }
+  .tech-roasters-layout { gap: 34px; }
+  .tech-roasters__content h2 { font-size: var(--font-size-h2); }
+  .tech-blueprint-frame { padding: 14px 14px 12px; }
+  .tech-roasters__image-matte { padding: 16px; }
+  .tech-blueprint-frame img { height: auto; max-height: 570px; }
+  .specs-panel__footer .button { width: 100%; min-width: 0; }
   .hero__media { height: clamp(260px, 72vw, 360px); }
   .hero__media img { object-position: 76% 28%; }
   .hero .button-row .button { width: 100%; }
