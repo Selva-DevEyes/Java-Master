@@ -33,7 +33,7 @@
   --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
   --font-size-h1: clamp(2.5rem, 4vw, 3.125rem);
   --font-size-h2: clamp(2rem, 3vw, 2.625rem);
-  --font-size-h3: clamp(1.5rem, 2vw, 1.75rem);
+  --font-size-h3: 1.5rem;
   --font-size-h4: clamp(1.125rem, 1.25vw, 1.35rem);
   --heading-line-height: 1.18;
   --body: 1rem;
