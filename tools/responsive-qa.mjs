@@ -7,7 +7,7 @@ import { tmpdir } from "node:os";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 const chromePath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
-const pages = ["index.html", "roasters.html", "jm-1500.html", "profect.html", "coffee.html", "success-stories.html", "success-story-detail.html", "about.html", "contact.html"];
+const pages = ["index.html", "roasters.html", "jm-1500.html", "profect.html", "coffee.html", "coffee-chronicles.html", "success-stories.html", "success-story-detail.html", "about.html", "contact.html"];
 const widths = [1920, 1440, 1280, 1024, 768, 760, 480, 430, 390, 360];
 const mime = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".png": "image/png", ".jpg": "image/jpeg", ".webp": "image/webp", ".svg": "image/svg+xml" };
 

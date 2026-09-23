@@ -92,6 +92,24 @@
     },
     {
       "width": 1920,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 1905,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 1920,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 1905,
@@ -254,6 +272,24 @@
     },
     {
       "width": 1440,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 1425,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 1440,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 1425,
@@ -416,6 +452,24 @@
     },
     {
       "width": 1280,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 1265,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 1280,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 1265,
@@ -578,6 +632,24 @@
     },
     {
       "width": 1024,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 1009,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 1024,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 1009,
@@ -740,6 +812,24 @@
     },
     {
       "width": 768,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 753,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 768,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 753,
@@ -885,6 +975,24 @@
     {
       "width": 760,
       "page": "coffee.html",
+      "overflow": false,
+      "scrollWidth": 760,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 760,
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 760,
       "rectProblem": [],
@@ -1064,7 +1172,7 @@
     },
     {
       "width": 480,
-      "page": "success-stories.html",
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 480,
       "rectProblem": [],
@@ -1074,6 +1182,41 @@
         "Inter"
       ],
       "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 480,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 480,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1121,13 +1264,20 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 480,
-      "rectProblem": [],
+      "rectProblem": [
+        "button.button button--accent"
+      ],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1226,7 +1376,7 @@
     },
     {
       "width": 430,
-      "page": "success-stories.html",
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 430,
       "rectProblem": [],
@@ -1236,6 +1386,41 @@
         "Inter"
       ],
       "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 430,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 430,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1283,13 +1468,25 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 430,
-      "rectProblem": [],
+      "rectProblem": [
+        "input.",
+        "input.",
+        "input.",
+        "input.",
+        "select.",
+        "button.button button--accent"
+      ],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1388,7 +1585,7 @@
     },
     {
       "width": 390,
-      "page": "success-stories.html",
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 390,
       "rectProblem": [],
@@ -1398,6 +1595,41 @@
         "Inter"
       ],
       "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1445,13 +1677,25 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 390,
-      "rectProblem": [],
+      "rectProblem": [
+        "input.",
+        "input.",
+        "input.",
+        "input.",
+        "select.",
+        "button.button button--accent"
+      ],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1550,7 +1794,7 @@
     },
     {
       "width": 360,
-      "page": "success-stories.html",
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 360,
       "rectProblem": [],
@@ -1560,6 +1804,41 @@
         "Inter"
       ],
       "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 360,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 360,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1607,13 +1886,26 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 360,
-      "rectProblem": [],
+      "rectProblem": [
+        "h2.",
+        "input.",
+        "input.",
+        "input.",
+        "input.",
+        "select.",
+        "button.button button--accent"
+      ],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1714,6 +2006,24 @@
     },
     {
       "width": 1920,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 1905,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 1920,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 1905,
@@ -1876,6 +2186,24 @@
     },
     {
       "width": 1440,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 1425,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 1440,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 1425,
@@ -2038,6 +2366,24 @@
     },
     {
       "width": 1280,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 1265,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 1280,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 1265,
@@ -2200,6 +2546,24 @@
     },
     {
       "width": 1024,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 1009,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 1024,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 1009,
@@ -2362,6 +2726,24 @@
     },
     {
       "width": 768,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 753,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 768,
       "page": "success-stories.html",
       "overflow": false,
       "scrollWidth": 753,
@@ -2507,6 +2889,24 @@
     {
       "width": 760,
       "page": "coffee.html",
+      "overflow": false,
+      "scrollWidth": 760,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 760,
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 760,
       "rectProblem": [],
@@ -2686,7 +3086,7 @@
     },
     {
       "width": 480,
-      "page": "success-stories.html",
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 480,
       "rectProblem": [],
@@ -2696,6 +3096,41 @@
         "Inter"
       ],
       "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 480,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 480,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -2743,13 +3178,20 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 480,
-      "rectProblem": [],
+      "rectProblem": [
+        "button.button button--accent"
+      ],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -2848,7 +3290,7 @@
     },
     {
       "width": 430,
-      "page": "success-stories.html",
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 430,
       "rectProblem": [],
@@ -2858,6 +3300,41 @@
         "Inter"
       ],
       "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 430,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 430,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -2905,13 +3382,25 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 430,
-      "rectProblem": [],
+      "rectProblem": [
+        "input.",
+        "input.",
+        "input.",
+        "input.",
+        "select.",
+        "button.button button--accent"
+      ],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -3010,7 +3499,7 @@
     },
     {
       "width": 390,
-      "page": "success-stories.html",
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 390,
       "rectProblem": [],
@@ -3020,6 +3509,41 @@
         "Inter"
       ],
       "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -3067,13 +3591,25 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 390,
-      "rectProblem": [],
+      "rectProblem": [
+        "input.",
+        "input.",
+        "input.",
+        "input.",
+        "select.",
+        "button.button button--accent"
+      ],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -3172,7 +3708,7 @@
     },
     {
       "width": 360,
-      "page": "success-stories.html",
+      "page": "coffee-chronicles.html",
       "overflow": false,
       "scrollWidth": 360,
       "rectProblem": [],
@@ -3182,6 +3718,41 @@
         "Inter"
       ],
       "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": true,
+      "clientErrors": []
+    },
+    {
+      "width": 360,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 360,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -3229,13 +3800,26 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 360,
-      "rectProblem": [],
+      "rectProblem": [
+        "h2.",
+        "input.",
+        "input.",
+        "input.",
+        "input.",
+        "select.",
+        "button.button button--accent"
+      ],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,

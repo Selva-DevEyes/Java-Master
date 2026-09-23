@@ -6,8 +6,7 @@
   const header = document.querySelector(".site-header");
   const navToggle = document.querySelector(".nav-toggle");
   const navMenu = document.querySelector(".nav__menu");
-  const dropdown = document.querySelector(".dropdown");
-  const dropdownToggle = document.querySelector(".dropdown__toggle");
+  const dropdowns = document.querySelectorAll(".dropdown");
   const searchToggle = document.querySelector(".search-toggle");
   const searchRegion = document.querySelector(".site-search");
   const searchPanel = document.querySelector(".site-search__panel");
@@ -22,19 +21,26 @@
     { title: "Commercial Air Roasters", url: "roasters.html", excerpt: "Compare the Java Master JM 1500 and Profect 4.0 commercial roasters.", keywords: "equipment machines compare" },
     { title: "JM 1500", url: "jm-1500.html", excerpt: "A compact commercial air roaster for published batch sizes from one to four pounds.", keywords: "specifications touchpad 16 pounds hour" },
     { title: "Profect 4.0", url: "profect.html", excerpt: "Adjustable profiles, multiple roasting modes and a published 6.8-pound nominal capacity.", keywords: "specifications capacity equipment" },
-    { title: "Green Coffee Catalogue", url: "coffee.html", excerpt: "Explore representative origins and discuss current green coffee availability.", keywords: "beans origins colombia ethiopia guatemala decaf" },
+    { title: "Coffee Collections", url: "coffee.html", excerpt: "Explore custom-roasted coffees, featured selections and 39 coffee collections.", keywords: "beans origins colombia ethiopia guatemala decaf roasted arabica" },
+    { title: "Coffee Chronicles", url: "coffee-chronicles.html", excerpt: "Daily Grind: learning, discoveries and insights from the coffee roasting world.", keywords: "blog articles stories learning beans roasting notes daily grind" },
     { title: "Customer Success Stories", url: "success-stories.html", excerpt: "Coffee-program story frameworks for cafés, grocers, hospitality teams and entrepreneurs.", keywords: "case studies customers results" },
     { title: "Customer Story", url: "success-story-detail.html", excerpt: "A detailed framework covering a coffee business challenge, solution and outcome.", keywords: "case study implementation" },
     { title: "About Java Master", url: "about.html", excerpt: "The engineering roots, air-roasting approach and business-support story.", keywords: "history 1987 company air roasting" },
     { title: "Request a Demonstration", url: "contact.html#demo-form", excerpt: "Talk with Java Master about your coffee business, location and product needs.", keywords: "contact demo sales phone support" }
   ];
 
+  const closeDropdowns = () => {
+    dropdowns.forEach((dd) => {
+      dd.classList.remove("is-open");
+      dd.querySelector(".dropdown__toggle")?.setAttribute("aria-expanded", "false");
+    });
+  };
+
   const closeMenus = () => {
     navMenu?.classList.remove("is-open");
     navToggle?.setAttribute("aria-expanded", "false");
     navToggle?.setAttribute("aria-label", "Open navigation");
-    dropdown?.classList.remove("is-open");
-    dropdownToggle?.setAttribute("aria-expanded", "false");
+    closeDropdowns();
   };
 
   navToggle?.addEventListener("click", () => {
@@ -44,25 +50,36 @@
     navMenu?.classList.toggle("is-open", !open);
   });
 
-  dropdownToggle?.addEventListener("click", (event) => {
-    event.stopPropagation();
-    const open = dropdownToggle.getAttribute("aria-expanded") === "true";
-    dropdownToggle.setAttribute("aria-expanded", String(!open));
-    dropdown?.classList.toggle("is-open", !open);
+  dropdowns.forEach((dd) => {
+    const toggle = dd.querySelector(".dropdown__toggle");
+    toggle?.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const open = toggle.getAttribute("aria-expanded") === "true";
+      dropdowns.forEach((other) => {
+        if (other !== dd) {
+          other.classList.remove("is-open");
+          other.querySelector(".dropdown__toggle")?.setAttribute("aria-expanded", "false");
+        }
+      });
+      toggle.setAttribute("aria-expanded", String(!open));
+      dd.classList.toggle("is-open", !open);
+    });
+
+    dd.addEventListener("focusout", () => {
+      window.setTimeout(() => {
+        if (!dd.contains(document.activeElement)) {
+          dd.classList.remove("is-open");
+          toggle?.setAttribute("aria-expanded", "false");
+        }
+      }, 50);
+    });
   });
 
   document.addEventListener("click", (event) => {
-    if (!dropdown?.contains(event.target)) {
-      dropdown?.classList.remove("is-open");
-      dropdownToggle?.setAttribute("aria-expanded", "false");
-    }
-  });
-
-  dropdown?.addEventListener("focusout", () => {
-    window.setTimeout(() => {
-      if (!dropdown.contains(document.activeElement)) {
-        dropdown.classList.remove("is-open");
-        dropdownToggle?.setAttribute("aria-expanded", "false");
+    dropdowns.forEach((dd) => {
+      if (!dd.contains(event.target)) {
+        dd.classList.remove("is-open");
+        dd.querySelector(".dropdown__toggle")?.setAttribute("aria-expanded", "false");
       }
     });
   });
@@ -149,13 +166,17 @@
     if (event.key === "Escape") {
       if (searchRegion?.classList.contains("is-open")) {
         closeSearch();
-      } else if (dropdown?.classList.contains("is-open")) {
-        dropdown.classList.remove("is-open");
-        dropdownToggle?.setAttribute("aria-expanded", "false");
-        dropdownToggle?.focus();
-      } else if (navMenu?.classList.contains("is-open")) {
-        closeMenus();
-        navToggle?.focus();
+      } else {
+        const openDropdown = Array.from(dropdowns).find((dd) => dd.classList.contains("is-open"));
+        if (openDropdown) {
+          const toggle = openDropdown.querySelector(".dropdown__toggle");
+          openDropdown.classList.remove("is-open");
+          toggle?.setAttribute("aria-expanded", "false");
+          toggle?.focus();
+        } else if (navMenu?.classList.contains("is-open")) {
+          closeMenus();
+          navToggle?.focus();
+        }
       }
     }
   });
@@ -172,7 +193,7 @@
   document.querySelectorAll(".nav__link, .dropdown__menu a").forEach((link) => {
     if (link.getAttribute("href") !== pageName) return;
     link.setAttribute("aria-current", "page");
-    if (link.closest(".dropdown__menu")) dropdownToggle?.classList.add("is-active");
+    link.closest(".dropdown")?.querySelector(".dropdown__toggle")?.classList.add("is-active");
   });
 
   document.querySelectorAll(".faq__button").forEach((button) => {
@@ -216,6 +237,30 @@
       });
     });
   });
+
+  const collectionGrid = document.querySelector("[data-collection-grid]");
+  const collectionMore = document.querySelector("[data-collection-more]");
+  const collectionStatus = document.querySelector("[data-collection-status]");
+  if (collectionGrid && collectionMore) {
+    const collections = [...collectionGrid.children];
+    const pageSize = 12;
+    let visibleCount = Math.min(pageSize, collections.length);
+
+    const renderCollections = () => {
+      collections.forEach((card, index) => { card.hidden = index >= visibleCount; });
+      if (collectionStatus) collectionStatus.textContent = `Showing ${visibleCount} of ${collections.length} collections`;
+      collectionMore.hidden = visibleCount >= collections.length;
+    };
+
+    collectionMore.hidden = false;
+    collectionMore.addEventListener("click", () => {
+      const firstNewCard = collections[visibleCount];
+      visibleCount = Math.min(visibleCount + pageSize, collections.length);
+      renderCollections();
+      if (firstNewCard && reduceMotion) firstNewCard.focus?.({ preventScroll: true });
+    });
+    renderCollections();
+  }
 
   // Mirrors the public Java Master ROI calculator configuration as published in September 2026.
   // Keep this isolated so commercial assumptions can be audited or updated without touching form logic.
@@ -366,6 +411,46 @@
       window.setTimeout(() => document.querySelector("#request-demo [tabindex='-1']")?.focus({ preventScroll: true }), reduceMotion ? 0 : 450);
     });
   });
+
+  // Coffee Chronicles Load More
+  const chronicleGrid = document.querySelector("[data-chronicle-grid]");
+  const chronicleMoreBtn = document.querySelector("[data-chronicle-more]");
+  const chronicleStatus = document.querySelector("[data-chronicle-status]");
+  if (chronicleGrid && chronicleMoreBtn) {
+    const hiddenCards = chronicleGrid.querySelectorAll(".chronicle-card[hidden]");
+    const totalCards = chronicleGrid.querySelectorAll(".chronicle-card").length;
+    
+    if (hiddenCards.length > 0) {
+      chronicleMoreBtn.hidden = false;
+      const updateStatus = () => {
+        const visibleCards = chronicleGrid.querySelectorAll(".chronicle-card:not([hidden])").length;
+        if (chronicleStatus) {
+          chronicleStatus.textContent = `Showing ${visibleCards} of ${totalCards} articles`;
+        }
+        if (visibleCards >= totalCards) {
+          chronicleMoreBtn.hidden = true;
+        }
+      };
+      updateStatus();
+
+      chronicleMoreBtn.addEventListener("click", () => {
+        const nextBatch = chronicleGrid.querySelectorAll(".chronicle-card[hidden]");
+        const toShow = Array.from(nextBatch).slice(0, 3);
+        toShow.forEach((card) => {
+          card.hidden = false;
+          card.classList.add("reveal", "is-visible");
+        });
+        updateStatus();
+        if (toShow[0]) {
+          toShow[0].focus?.();
+        }
+      });
+    } else {
+      if (chronicleStatus) {
+        chronicleStatus.textContent = `Showing all ${totalCards} articles`;
+      }
+    }
+  }
 
   const revealTargets = document.querySelectorAll("main > section:not(:first-child), main > article > section:not(:first-child), .reveal");
   revealTargets.forEach((element) => element.classList.add("reveal"));

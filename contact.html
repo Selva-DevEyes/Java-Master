@@ -5,7 +5,7 @@
     <ul class="nav__menu" id="primary-menu">
       <li><a class="nav__link" href="index.html">Home</a></li>
       <li class="dropdown"><button class="dropdown__toggle" type="button" aria-expanded="false" aria-controls="roaster-menu">Roasters</button><ul class="dropdown__menu" id="roaster-menu"><li><a href="roasters.html">Compare Roasters</a></li><li><a href="jm-1500.html">JM 1500</a></li><li><a href="profect.html">Profect 4.0</a></li></ul></li>
-      <li><a class="nav__link" href="coffee.html">Coffee</a></li>
+      <li class="dropdown"><button class="dropdown__toggle" type="button" aria-expanded="false" aria-controls="coffee-menu">Coffee</button><ul class="dropdown__menu" id="coffee-menu"><li><a href="coffee.html">Coffee Collections</a></li><li><a href="coffee-chronicles.html">Coffee Chronicles</a></li></ul></li>
       <li><a class="nav__link" href="success-stories.html">Success Stories</a></li>
       <li><a class="nav__link" href="about.html">About</a></li>
       <li><a class="nav__link" href="contact.html">Contact</a></li>
@@ -31,18 +31,55 @@
     </div>
   </div>
 </header>
-<main id="main-content"><section class="page-hero section--dark"><div class="container"><ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="index.html">Home</a></li><li aria-current="page">Contact</li></ol><div class="page-hero__grid"><h1>Let’s Talk About Your Coffee Business</h1><p>Tell us what you are building, what you serve today and where an in-house roasting program might take you.</p></div></div></section>
-<section class="section section--contact-main"><div class="container"><div class="contact-layout"><aside><span class="eyebrow">Sales &amp; support</span><h2>A Real Conversation Starts Here</h2><p>Use the form for demonstration and product inquiries, or call the published Java Master sales and support number.</p><ul class="contact-list"><li><strong>Phone</strong><br><a href="tel:+13369905051">(336) 990-5051</a></li><li><strong>Location</strong><br>153 Business Center Dr., Suite 101<br>North Wilkesboro, NC</li><li><strong>Working Hours</strong><br>Monday – Friday: 8:00 AM – 5:00 PM EST</li><li><strong>Direct Email</strong><br><a href="mailto:info@javamaster.com">info@javamaster.com</a></li></ul><p class="fine-print">Direct consultation with a commercial roasting advisor. All inquiries answered within 24 business hours.</p></aside>
-<div class="contact-form" id="demo-form"><span class="eyebrow">Request a Demo</span><h2>Show Us What You’re Planning</h2><p>Required fields are marked with an asterisk (*). No commitment required.</p><form data-validate novalidate>
-<div class="form-grid"><div class="field"><label for="full-name">Full name *</label><input id="full-name" name="full_name" type="text" autocomplete="name" required><span class="field__error"></span></div><div class="field"><label for="business-name">Business name *</label><input id="business-name" name="business_name" type="text" autocomplete="organization" required><span class="field__error"></span></div><div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" required><span class="field__error"></span></div><div class="field"><label for="phone">Phone *</label><input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() .-]{7,}" required><span class="field__error"></span></div><div class="field"><label for="business-type">Business type *</label><select id="business-type" name="business_type" required><option value="">Select one</option><option>Coffee shop</option><option>Restaurant</option><option>Hotel / hospitality</option><option>Grocery / retail</option><option>Entrepreneur / startup</option><option>Other</option></select><span class="field__error"></span></div><div class="field"><label for="location">Location *</label><input id="location" name="location" type="text" autocomplete="address-level2" placeholder="City, state / region" required><span class="field__error"></span></div><div class="field field--full"><label for="product">Interested product *</label><select id="product" name="product" required><option value="">Select one</option><option>JM 1500 (1–4 lb batches)</option><option>Profect 4.0 (Up to 6.8 lb batches)</option><option>Help me choose the right roaster</option><option>Green coffee supply</option></select><span class="field__error"></span></div><div class="field field--full"><label for="message">What should we know?</label><textarea id="message" name="message" placeholder="Tell us about your current coffee volume, location, timeline or goals."></textarea><span class="field__error"></span></div><div class="field field--full"><label class="check" for="consent"><input id="consent" name="consent" type="checkbox" required><span>I agree that Java Master may contact me about this inquiry. *</span></label><span class="field__error"></span></div></div>
-<div class="form-status" role="status" aria-live="polite"></div><button class="button button--accent" type="submit">Request a Demo</button>
-</form><!-- Backend integration required: add server-side validation, CRM/email delivery, spam protection, secure data handling and consent logging. --></div></div></div></section>
-<section class="section section--faq"><div class="container"><div class="section__head"><div><span class="eyebrow">Before the demo</span><h2>Helpful Things to Know</h2></div></div><div class="faq"><div class="faq__item"><button class="faq__button" aria-expanded="false" aria-controls="contact-faq-1">What should I bring to the conversation?</button><div class="faq__panel" id="contact-faq-1" hidden><p>Your business type, approximate coffee volume, site location, desired timeline and any available utility information will help make the discussion useful.</p></div></div><div class="faq__item"><button class="faq__button" aria-expanded="false" aria-controls="contact-faq-2">Can Java Master help me choose a roaster?</button><div class="faq__panel" id="contact-faq-2" hidden><p>Yes. The JM 1500 and Profect 4.0 serve different volume and site requirements. A consultation can help frame the decision.</p></div></div><div class="faq__item"><button class="faq__button" aria-expanded="false" aria-controls="contact-faq-3">Can I discuss coffee supply too?</button><div class="faq__panel" id="contact-faq-3" hidden><p>Yes. Java Master publishes a broad green coffee catalogue and positions bean selection as part of its complete program.</p></div></div></div></div></section></main>
+<main id="main-content">
+  <section class="contact-hero" aria-labelledby="contact-title">
+    <div class="contact-hero__media" aria-hidden="true"><img src="assets/images/roaster-planning-java-master.jpg" alt="" width="5500" height="3667" fetchpriority="high"></div>
+    <div class="container contact-hero__content">
+      <ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="index.html">Home</a></li><li aria-current="page">Contact</li></ol>
+      <span class="eyebrow">Let’s start a conversation</span>
+      <h1 id="contact-title">Let’s Talk About Your Coffee Business</h1>
+      <p>Tell us what you are building, what you serve today and where an in-house roasting program might take you.</p>
+    </div>
+  </section>
+
+  <section class="section section--contact-main" aria-labelledby="contact-conversation-title">
+    <div class="container contact-experience">
+      <aside class="contact-experience__details">
+        <span class="eyebrow">Sales &amp; support</span>
+        <h2 id="contact-conversation-title">A Real Conversation Starts Here</h2>
+        <p>Use the form for demonstration and product inquiries, or call the published Java Master sales and support number.</p>
+        <ul class="contact-list">
+          <li><span class="contact-list__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.35 1.78.7 2.61a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.83.35 1.71.58 2.61.7A2 2 0 0 1 22 16.92Z"></path></svg></span><span><strong>Phone</strong><a href="tel:+13369905051">(336) 990-5051</a></span></li>
+          <li><span class="contact-list__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1 1 18 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg></span><span><strong>Address</strong><a href="https://www.google.com/maps/search/?api=1&amp;query=153%20Business%20Center%20Dr.%2C%20Suite%20101%2C%20North%20Wilkesboro%2C%20NC%2028659%2C%20United%20States" target="_blank" rel="noopener noreferrer">153 Business Center Dr., Suite 101<br>North Wilkesboro, NC 28659<br>United States</a></span></li>
+          <li><span class="contact-list__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg></span><span><strong>Email</strong><a href="mailto:info@javamaster.com">info@javamaster.com</a></span></li>
+        </ul>
+      </aside>
+
+      <div class="contact-form contact-experience__form" id="demo-form">
+        <span class="eyebrow">Request a Demo</span>
+        <h2>Show Us What You’re Planning</h2>
+        <p>Required fields are marked with an asterisk (*). No commitment required.</p>
+        <form data-validate data-integration-pending novalidate>
+          <div class="form-grid">
+            <div class="field"><label for="full-name">Name *</label><input id="full-name" name="full_name" type="text" autocomplete="name" required><span class="field__error"></span></div>
+            <div class="field"><label for="business-name">Business / Company *</label><input id="business-name" name="business_name" type="text" autocomplete="organization" required><span class="field__error"></span></div>
+            <div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" required><span class="field__error"></span></div>
+            <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() .-]{7,}"><span class="field__error"></span></div>
+            <div class="field field--full"><label for="product">Preferred Roaster or Service *</label><select id="product" name="product" required><option value="">Select one</option><option>JM 1500</option><option>Profect 4.0</option><option>Help me choose the right roaster</option><option>Green coffee supply</option></select><span class="field__error"></span></div>
+            <div class="field field--full"><label for="message">Message / Notes</label><textarea id="message" name="message" placeholder="Tell us about your roasting goals, volume requirements, or site specifications."></textarea><span class="field__error"></span></div>
+          </div>
+          <div class="form-status" role="status" aria-live="polite"></div>
+          <button class="button button--accent" type="submit">Request a Demo</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
 <footer class="site-footer">
   <div class="container">
     <div class="footer__grid">
       <div class="footer__intro"><a class="brand" href="index.html" aria-label="Java Master International home"><img class="brand__logo" src="assets/images/java-master-logo-updated-600.png" alt="Java Master International" width="379" height="600"></a><p>Commercial air roasters, curated green coffee and hands-on support for ambitious coffee businesses.</p><a class="button button--accent" href="contact.html#demo-form">Request a Demo</a></div>
-      <div class="footer__column"><h2 class="footer__title">Explore</h2><ul class="footer__links"><li><a href="index.html">Home</a></li><li><a href="coffee.html">Coffee</a></li><li><a href="success-stories.html">Success Stories</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer__column"><h2 class="footer__title">Explore</h2><ul class="footer__links"><li><a href="index.html">Home</a></li><li><a href="coffee.html">Coffee</a></li><li><a href="coffee-chronicles.html">Coffee Chronicles</a></li><li><a href="success-stories.html">Success Stories</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
       <div class="footer__column"><h2 class="footer__title">Roasters</h2><ul class="footer__links"><li><a href="roasters.html">Compare Roasters</a></li><li><a href="jm-1500.html">JM 1500</a></li><li><a href="profect.html">Profect 4.0</a></li><li><a href="contact.html#demo-form">Request a Demo</a></li></ul></div>
       <div class="footer__column footer__contact"><h2 class="footer__title">Contact</h2><ul class="footer__links"><li><a class="footer__phone" href="tel:+13369905051">(336) 990-5051</a></li><li><a class="footer__address" href="https://www.google.com/maps/search/?api=1&amp;query=153%20Business%20Center%20Dr.%2C%20Suite%20101%2C%20North%20Wilkesboro%2C%20NC%2028659%2C%20United%20States" target="_blank" rel="noopener noreferrer" aria-label="View Java Master at 153 Business Center Drive, Suite 101, North Wilkesboro, North Carolina 28659 on Google Maps"><strong>153 Business Center Dr., Suite 101</strong><br><strong>North Wilkesboro, NC 28659</strong><br><strong>United States</strong></a></li></ul></div>
     </div>
