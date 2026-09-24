@@ -140,12 +140,12 @@
   .about-story__chapter { margin-top: 42px; }
   .about-difference__grid { gap: 18px; }
   .about-benefit-card { padding: 28px; }
-  .about-sustainability__media, .about-sustainability__media img { min-height: 390px; }
+  .about-sustainability__card { padding: 36px 28px; border-radius: 28px; }
+  .about-sustainability__media, .about-sustainability__media img { min-height: 380px; }
   .about-roasters-cta__content { padding: 38px 28px 24px; }
-  .about-roasters-cta__gallery { height: 460px; }
+  .about-roasters-cta__gallery { height: 440px; }
   .purpose-card { min-height: 0; padding-top: 30px; }
   .purpose-card__icon { position: relative; top: auto; left: auto; margin: 0 0 20px; }
-  .about-sustainability__badges { grid-template-columns: 1fr; gap: 10px; }
 }
 
 @media (max-width: 680px) {
@@ -207,13 +207,14 @@
   .about-comparison__media--fire { min-height: 410px; aspect-ratio: auto; border-radius: 54px 14px 14px 14px; }
   .about-comparison__media--air { aspect-ratio: 4 / 3; border-radius: 16px 44px 16px 16px; }
   .about-difference__grid { grid-template-columns: 1fr; }
-  .about-sustainability__media { border-radius: 64px 18px 18px 18px; }
-  .about-sustainability__media::after { border-radius: 52px 12px 12px 12px; }
-  .about-sustainability__media, .about-sustainability__media img { min-height: 330px; }
+  .about-sustainability__card { padding: 28px 20px; border-radius: 24px; }
+  .about-sustainability__media { border-radius: 20px; min-height: 300px; }
+  .about-sustainability__media img { min-height: 300px; }
+  .about-sustainability__badge-float { bottom: 14px; left: 14px; right: 14px; padding: 10px 14px; gap: 10px; }
   .about-roasters-cta__panel { border-radius: 20px; }
   .about-roasters-cta__content { padding: 32px 22px 18px; }
-  .about-roasters-cta__gallery { width: calc(100% - 28px); height: 390px; gap: 8px; margin-bottom: 14px; }
-  .about-roasters-cta__image { border-radius: 9px; }
+  .about-roasters-cta__gallery { width: calc(100% - 28px); height: 320px; gap: 10px; margin-bottom: 20px; }
+  .about-roasters-cta__image { border-radius: 12px; }
 }
 
 @media (max-width: 520px) {
