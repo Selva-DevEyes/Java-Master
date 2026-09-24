@@ -379,3 +379,29 @@
   .coffee-magic-card { min-height: 320px; }
   .coffee-story__media { min-height: 340px; border-radius: 48px 14px 14px 14px; }
 }
+
+/* Contact page & Facility showcase */
+@media (max-width: 980px) {
+  .contact-experience { grid-template-columns: 1fr; gap: 36px; }
+  .facility-card__layout { grid-template-columns: 1fr; gap: 36px; }
+  .facility-card__media, .facility-card__media img { min-height: 340px; }
+}
+
+@media (max-width: 680px) {
+  .contact-hero { min-height: 440px; }
+  .page--contact .contact-list li { padding: 16px; border-radius: 16px; }
+  .facility-card { padding: 28px 18px; border-radius: 24px; }
+  .facility-card__media, .facility-card__media img { min-height: 280px; border-radius: 18px; }
+  .facility-card__action .button { width: 100%; justify-content: center; }
+  .facility-feature { padding: 12px 14px; }
+}
+
+@media (max-width: 420px) {
+  .facility-card { padding: 22px 14px; border-radius: 20px; }
+  .facility-card__media, .facility-card__media img { min-height: 230px; }
+  .facility-card__floating-tag { bottom: 12px; left: 12px; right: 12px; padding: 10px 12px; }
+  .facility-feature { gap: 10px; }
+  .facility-feature__icon { width: 32px; height: 32px; flex: 0 0 32px; }
+  .facility-feature__icon svg { width: 16px; height: 16px; }
+}
+

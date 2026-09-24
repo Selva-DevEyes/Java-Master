@@ -1264,20 +1264,13 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 480,
-      "rectProblem": [
-        "button.button button--accent"
-      ],
+      "rectProblem": [],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
+      "headingWidows": [],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1468,25 +1461,13 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 430,
-      "rectProblem": [
-        "input.",
-        "input.",
-        "input.",
-        "input.",
-        "select.",
-        "button.button button--accent"
-      ],
+      "rectProblem": [],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
+      "headingWidows": [],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1677,25 +1658,13 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 390,
-      "rectProblem": [
-        "input.",
-        "input.",
-        "input.",
-        "input.",
-        "select.",
-        "button.button button--accent"
-      ],
+      "rectProblem": [],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
+      "headingWidows": [],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -1886,26 +1855,13 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 360,
-      "rectProblem": [
-        "h2.",
-        "input.",
-        "input.",
-        "input.",
-        "input.",
-        "select.",
-        "button.button button--accent"
-      ],
+      "rectProblem": [],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
+      "headingWidows": [],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -3213,20 +3169,13 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 480,
-      "rectProblem": [
-        "button.button button--accent"
-      ],
+      "rectProblem": [],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
+      "headingWidows": [],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -3422,25 +3371,13 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 430,
-      "rectProblem": [
-        "input.",
-        "input.",
-        "input.",
-        "input.",
-        "select.",
-        "button.button button--accent"
-      ],
+      "rectProblem": [],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
+      "headingWidows": [],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -3636,25 +3573,13 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 390,
-      "rectProblem": [
-        "input.",
-        "input.",
-        "input.",
-        "input.",
-        "select.",
-        "button.button button--accent"
-      ],
+      "rectProblem": [],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
+      "headingWidows": [],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
@@ -3850,26 +3775,13 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 360,
-      "rectProblem": [
-        "h2.",
-        "input.",
-        "input.",
-        "input.",
-        "input.",
-        "select.",
-        "button.button button--accent"
-      ],
+      "rectProblem": [],
       "smallFields": [],
       "headingFonts": [
         "Manrope",
         "Inter"
       ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
+      "headingWidows": [],
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
