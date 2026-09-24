@@ -1,6 +1,5 @@
 @media (max-width: 1100px) {
   .nav__link, .dropdown__toggle { padding-inline: 8px; }
-  .site-header .button--small { display: none; }
   .process { grid-template-columns: repeat(6, 1fr); }
   .process__item { grid-column: span 2; }
   .process__item:nth-child(n+4) { grid-column: span 3; }
@@ -145,7 +144,8 @@
   .about-roasters-cta__content { padding: 38px 28px 24px; }
   .about-roasters-cta__gallery { height: 460px; }
   .purpose-card { min-height: 0; padding-top: 30px; }
-  .purpose-card__icon { position: relative; top: auto; left: auto; margin: 42px 0 30px; }
+  .purpose-card__icon { position: relative; top: auto; left: auto; margin: 0 0 20px; }
+  .about-sustainability__badges { grid-template-columns: 1fr; gap: 10px; }
 }
 
 @media (max-width: 680px) {

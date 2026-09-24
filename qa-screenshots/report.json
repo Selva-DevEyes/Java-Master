@@ -15,7 +15,7 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -33,7 +33,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -51,7 +51,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -69,7 +69,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -87,7 +87,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -105,7 +105,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -123,7 +123,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -141,7 +141,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -159,7 +159,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -177,7 +177,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -195,7 +195,7 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -213,7 +213,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -231,7 +231,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -249,7 +249,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -267,7 +267,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -285,7 +285,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -303,7 +303,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -321,7 +321,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -339,7 +339,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -357,7 +357,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -375,7 +375,7 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -393,7 +393,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -411,7 +411,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -429,7 +429,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -447,7 +447,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -465,7 +465,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -483,7 +483,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -501,7 +501,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -519,7 +519,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -537,7 +537,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -555,7 +555,7 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -573,7 +573,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -591,7 +591,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -609,7 +609,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -627,7 +627,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -645,7 +645,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -663,7 +663,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -681,7 +681,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -699,7 +699,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -717,7 +717,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -735,7 +735,7 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -753,7 +753,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -771,7 +771,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -789,7 +789,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -807,7 +807,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -825,7 +825,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -843,7 +843,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -861,7 +861,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -879,7 +879,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -897,7 +897,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -915,7 +915,7 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -933,7 +933,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -951,7 +951,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -969,7 +969,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -987,7 +987,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1005,7 +1005,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1023,7 +1023,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1041,7 +1041,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1059,7 +1059,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1077,7 +1077,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1095,7 +1095,7 @@
       "unevenCardRows": [],
       "heroLines": 3,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1113,7 +1113,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1131,7 +1131,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1149,7 +1149,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1167,7 +1167,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1185,7 +1185,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1220,7 +1220,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1238,7 +1238,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1256,7 +1256,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1281,7 +1281,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1299,7 +1299,7 @@
       "unevenCardRows": [],
       "heroLines": 3,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1317,7 +1317,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1335,7 +1335,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1353,7 +1353,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1371,7 +1371,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1389,7 +1389,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1424,7 +1424,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1442,7 +1442,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1460,7 +1460,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1468,215 +1468,6 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 430,
-      "rectProblem": [
-        "input.",
-        "input.",
-        "input.",
-        "input.",
-        "select.",
-        "button.button button--accent"
-      ],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "index.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": 3,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "roasters.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "jm-1500.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "profect.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "coffee.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "coffee-chronicles.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "success-stories.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [
-        {
-          "text": "A Signature Cup for Every Guest",
-          "lastLine": "Guest"
-        },
-        {
-          "text": "Building a New Coffee Concept",
-          "lastLine": "Concept"
-        },
-        {
-          "text": "Finishing the Meal with Theater",
-          "lastLine": "Theater"
-        },
-        {
-          "text": "Turning Aroma into Discovery",
-          "lastLine": "Discovery"
-        }
-      ],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "success-story-detail.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "about.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "contact.html",
-      "overflow": false,
-      "scrollWidth": 390,
       "rectProblem": [
         "input.",
         "input.",
@@ -1699,7 +1490,216 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "index.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": 3,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "roasters.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "jm-1500.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "profect.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "coffee.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "success-story-detail.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "about.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "contact.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [
+        "input.",
+        "input.",
+        "input.",
+        "input.",
+        "select.",
+        "button.button button--accent"
+      ],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1717,7 +1717,7 @@
       "unevenCardRows": [],
       "heroLines": 3,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1735,7 +1735,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1753,7 +1753,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1771,7 +1771,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1789,7 +1789,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1807,7 +1807,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1842,7 +1842,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1860,7 +1860,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1878,7 +1878,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1909,7 +1909,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     }
   ],
@@ -1929,8 +1929,13 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 1920,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 1920,
@@ -1947,7 +1952,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1965,7 +1970,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -1983,7 +1988,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2001,7 +2006,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2019,7 +2024,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2037,7 +2042,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2055,7 +2060,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2073,7 +2078,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2091,7 +2096,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2109,8 +2114,13 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 1440,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 1440,
@@ -2127,7 +2137,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2145,7 +2155,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2163,7 +2173,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2181,7 +2191,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2199,7 +2209,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2217,7 +2227,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2235,7 +2245,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2253,7 +2263,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2271,7 +2281,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2289,8 +2299,13 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 1280,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 1280,
@@ -2307,7 +2322,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2325,7 +2340,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2343,7 +2358,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2361,7 +2376,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2379,7 +2394,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2397,7 +2412,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2415,7 +2430,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2433,7 +2448,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2451,7 +2466,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2469,8 +2484,13 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 1024,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 1024,
@@ -2487,7 +2507,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2505,7 +2525,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2523,7 +2543,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2541,7 +2561,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2559,7 +2579,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2577,7 +2597,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2595,7 +2615,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2613,7 +2633,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2631,7 +2651,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2649,8 +2669,13 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 768,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 768,
@@ -2667,7 +2692,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2685,7 +2710,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2703,7 +2728,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2721,7 +2746,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2739,7 +2764,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2757,7 +2782,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2775,7 +2800,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2793,7 +2818,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2811,7 +2836,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2829,8 +2854,13 @@
       "unevenCardRows": [],
       "heroLines": 2,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 760,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 760,
@@ -2847,7 +2877,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2865,7 +2895,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2883,7 +2913,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2901,7 +2931,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2919,7 +2949,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2937,7 +2967,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2955,7 +2985,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2973,7 +3003,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -2991,7 +3021,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3009,8 +3039,13 @@
       "unevenCardRows": [],
       "heroLines": 3,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 480,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 480,
@@ -3027,7 +3062,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3045,7 +3080,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3063,7 +3098,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3081,7 +3116,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3099,7 +3134,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3134,7 +3169,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3152,7 +3187,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3170,7 +3205,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3195,7 +3230,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3213,8 +3248,13 @@
       "unevenCardRows": [],
       "heroLines": 3,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 430,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 430,
@@ -3231,7 +3271,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3249,7 +3289,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3267,7 +3307,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3285,7 +3325,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3303,7 +3343,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3338,7 +3378,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3356,7 +3396,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3374,7 +3414,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3382,215 +3422,6 @@
       "page": "contact.html",
       "overflow": false,
       "scrollWidth": 430,
-      "rectProblem": [
-        "input.",
-        "input.",
-        "input.",
-        "input.",
-        "select.",
-        "button.button button--accent"
-      ],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [
-        {
-          "text": "Show Us What You’re Planning",
-          "lastLine": "Planning"
-        }
-      ],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "index.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": 3,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "roasters.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "jm-1500.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "profect.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "coffee.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "coffee-chronicles.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "success-stories.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [
-        {
-          "text": "A Signature Cup for Every Guest",
-          "lastLine": "Guest"
-        },
-        {
-          "text": "Building a New Coffee Concept",
-          "lastLine": "Concept"
-        },
-        {
-          "text": "Finishing the Meal with Theater",
-          "lastLine": "Theater"
-        },
-        {
-          "text": "Turning Aroma into Discovery",
-          "lastLine": "Discovery"
-        }
-      ],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "success-story-detail.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "about.html",
-      "overflow": false,
-      "scrollWidth": 390,
-      "rectProblem": [],
-      "smallFields": [],
-      "headingFonts": [
-        "Manrope",
-        "Inter"
-      ],
-      "headingWidows": [],
-      "unevenCardRows": [],
-      "heroLines": null,
-      "logoVisible": true,
-      "searchVisible": true,
-      "clientErrors": []
-    },
-    {
-      "width": 390,
-      "page": "contact.html",
-      "overflow": false,
-      "scrollWidth": 390,
       "rectProblem": [
         "input.",
         "input.",
@@ -3613,7 +3444,221 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "index.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": 3,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "index.html",
+      "searchState": {}
+    },
+    {
+      "width": 390,
+      "page": "roasters.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "jm-1500.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "profect.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "coffee.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "coffee-chronicles.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "success-stories.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "A Signature Cup for Every Guest",
+          "lastLine": "Guest"
+        },
+        {
+          "text": "Building a New Coffee Concept",
+          "lastLine": "Concept"
+        },
+        {
+          "text": "Finishing the Meal with Theater",
+          "lastLine": "Theater"
+        },
+        {
+          "text": "Turning Aroma into Discovery",
+          "lastLine": "Discovery"
+        }
+      ],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "success-story-detail.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "about.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
+      "clientErrors": []
+    },
+    {
+      "width": 390,
+      "page": "contact.html",
+      "overflow": false,
+      "scrollWidth": 390,
+      "rectProblem": [
+        "input.",
+        "input.",
+        "input.",
+        "input.",
+        "select.",
+        "button.button button--accent"
+      ],
+      "smallFields": [],
+      "headingFonts": [
+        "Manrope",
+        "Inter"
+      ],
+      "headingWidows": [
+        {
+          "text": "Show Us What You’re Planning",
+          "lastLine": "Planning"
+        }
+      ],
+      "unevenCardRows": [],
+      "heroLines": null,
+      "logoVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3631,8 +3676,13 @@
       "unevenCardRows": [],
       "heroLines": 3,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
+    },
+    {
+      "width": 360,
+      "page": "index.html",
+      "searchState": {}
     },
     {
       "width": 360,
@@ -3649,7 +3699,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3667,7 +3717,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3685,7 +3735,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3703,7 +3753,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3721,7 +3771,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3756,7 +3806,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3774,7 +3824,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3792,7 +3842,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     },
     {
@@ -3823,7 +3873,7 @@
       "unevenCardRows": [],
       "heroLines": null,
       "logoVisible": true,
-      "searchVisible": true,
+      "searchVisible": false,
       "clientErrors": []
     }
   ]
