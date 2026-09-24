@@ -220,7 +220,7 @@ p { max-width: 66ch; }
 .tagline-step--highlight .step-num { background: rgba(201, 111, 61, 0.35); border-color: #f4b27a; color: #fff; }
 .step-arrow { display: grid; place-items: center; color: rgba(244, 178, 122, 0.45); }
 .step-arrow svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
-.process__tagline-note { margin: 0; color: rgba(255, 255, 255, 0.74); font-size: 0.95rem; line-height: 1.55; max-width: 580px; }
+.process__tagline-note { margin: 0; color: rgba(255, 255, 255, 0.74); font-size: 0.95rem; line-height: 1.55; max-width: 650px; }
 .process__tagline-action { position: relative; z-index: 1; flex: 0 0 auto; }
 .process__tagline-action .button { box-shadow: 0 10px 24px rgba(189, 108, 60, 0.4); }
 .process__tagline-action .button__arrow { transition: transform 0.25s ease; }
@@ -764,7 +764,7 @@ p { max-width: 66ch; }
 .about-points--air li strong { color: var(--copper-dark); }
 .about-points--air li::before { background: rgba(189, 108, 60, .2); border: 2px solid var(--copper); }
 
-.about-difference { position: relative; color: #fff; background: linear-gradient(150deg, rgba(22, 13, 9, 0.88) 0%, rgba(14, 8, 5, 0.94) 100%), url('../images/coffee-beans-overhead.jpg') center center / cover no-repeat; }
+.about-difference { position: relative; color: #fff; background: linear-gradient(150deg, rgba(22, 13, 9, 0.88) 0%, rgba(14, 8, 5, 0.94) 100%), url('../images/coffee-beans-overhead.jpg') center center / cover no-repeat;background-attachment: fixed; }
 .about-difference::before { position: absolute; inset: 0; opacity: .05; background-image: url('../images/coffee-bean-pattern.svg'); background-size: 180px; pointer-events: none; content: ""; }
 .about-difference .container { position: relative; z-index: 1; }
 .about-difference__intro { max-width: 940px; margin-bottom: clamp(38px, 5vw, 62px); }
@@ -773,7 +773,8 @@ p { max-width: 66ch; }
 .about-difference__intro > p { max-width: 850px; margin: 0; color: rgba(255,255,255,.72); font-size: 1rem; line-height: 1.75; }
 .about-difference__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
 .about-benefit-card { position: relative; min-width: 0; overflow: hidden; padding: clamp(28px, 3.2vw, 42px); border: 1px solid rgba(244,178,122,.18); border-radius: 22px; background: linear-gradient(145deg, rgba(255,255,255,.08) 0%, rgba(255,255,255,.025) 100%); box-shadow: 0 22px 48px rgba(6,4,3,.25), inset 0 1px 0 rgba(255,255,255,.08); backdrop-filter: blur(12px); transition: transform var(--card-transition), border-color var(--card-transition), box-shadow var(--card-transition); }
-.about-benefit-card::after { position: absolute; right: 0; bottom: 0; left: 0; height: 3px; transform: scaleX(.2); transform-origin: left; background: linear-gradient(90deg, var(--copper), transparent 88%); content: ""; transition: transform var(--card-transition); }
+.about-benefit-card::after { position: absolute; right: 0; bottom: 0; left: 0; height: 3px; transform: scaleX(.2); transform-origin: left; background:linear-gradient(
+272deg, #571b12, #bd6c3c 82%); content: ""; transition: transform var(--card-transition); }
 .about-benefit-card:hover { transform: translateY(-5px); border-color: rgba(244,178,122,.55); box-shadow: 0 30px 60px rgba(6,4,3,.38), inset 0 1px 0 rgba(255,255,255,.14); }
 .about-benefit-card:hover::after { transform: scaleX(1); }
 .about-benefit-card__top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }

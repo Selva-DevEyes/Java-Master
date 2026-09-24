@@ -31,7 +31,12 @@
 </header>
 <main id="main-content">
   <section class="contact-hero" aria-labelledby="contact-title">
-    <div class="contact-hero__media" aria-hidden="true"><img src="assets/images/roaster-planning-java-master.jpg" alt="" width="5500" height="3667" fetchpriority="high"></div>
+    <div class="contact-hero__media" aria-hidden="true">
+      <picture>
+        <source srcset="assets/images/roaster-planning-java-master.webp" type="image/webp">
+        <img src="assets/images/roaster-planning-java-master.jpg" alt="Commercial coffee roasting consultation and planning workspace" width="1920" height="1280" fetchpriority="high">
+      </picture>
+    </div>
     <div class="container contact-hero__content">
       <ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="index.html">Home</a></li><li aria-current="page">Contact</li></ol>
       <span class="eyebrow">Let’s start a conversation</span>
@@ -66,7 +71,7 @@
             <div class="field field--full"><label for="product">Preferred Roaster or Service *</label><select id="product" name="product" required><option value="">Select one</option><option>JM 1500</option><option>Profect 4.0</option><option>Help me choose the right roaster</option><option>Green coffee supply</option></select><span class="field__error"></span></div>
             <div class="field field--full"><label for="message">Message / Notes</label><textarea id="message" name="message" placeholder="Tell us about your roasting goals, volume requirements, or site specifications."></textarea><span class="field__error"></span></div>
           </div>
-          <div class="form-status" role="status" aria-live="polite"></div>
+          <!-- <div class="form-status" role="status" aria-live="polite"></div> -->
           <button class="button button--accent" type="submit">Request a Demo</button>
         </form>
       </div>
