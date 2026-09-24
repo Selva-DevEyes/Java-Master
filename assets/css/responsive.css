@@ -82,8 +82,8 @@
   .about-comparison--air .about-comparison__media { order: 1; }
   .about-comparison--air .about-comparison__content { order: 2; }
   .about-sustainability__media, .about-sustainability__media img { min-height: 460px; }
-  .about-roasters-cta__panel { min-height: 0; grid-template-columns: 1fr; }
-  .about-roasters-cta__gallery { width: calc(100% - 56px); max-width: 720px; height: 500px; margin: 0 auto 28px; padding: 0; }
+  .about-roasters-cta__panel { min-height: 0; grid-template-columns: 1fr; gap: 36px; padding: clamp(32px, 5vw, 52px); }
+  .about-roasters-cta__showcase { height: 400px; min-height: 0; }
   .about-contact-panel__layout { grid-template-columns: 1fr; }
   .about-contact-panel__links { padding-top: 26px; padding-left: 0; border-top: 1px solid rgba(147,67,34,.22); border-left: 0; }
   .vision-mission__intro { max-width: 760px; grid-template-columns: 1fr; gap: 18px; }
@@ -142,8 +142,9 @@
   .about-benefit-card { padding: 28px; }
   .about-sustainability__card { padding: 36px 28px; border-radius: 28px; }
   .about-sustainability__media, .about-sustainability__media img { min-height: 380px; }
-  .about-roasters-cta__content { padding: 38px 28px 24px; }
-  .about-roasters-cta__gallery { height: 440px; }
+  .about-roasters-cta__content { padding: 0; }
+  .about-roasters-cta__pillars { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .about-roasters-cta__showcase { height: 360px; min-height: 0; }
   .purpose-card { min-height: 0; padding-top: 30px; }
   .purpose-card__icon { position: relative; top: auto; left: auto; margin: 0 0 20px; }
 }
@@ -211,10 +212,14 @@
   .about-sustainability__media { border-radius: 20px; min-height: 300px; }
   .about-sustainability__media img { min-height: 300px; }
   .about-sustainability__badge-float { bottom: 14px; left: 14px; right: 14px; padding: 10px 14px; gap: 10px; }
-  .about-roasters-cta__panel { border-radius: 20px; }
-  .about-roasters-cta__content { padding: 32px 22px 18px; }
-  .about-roasters-cta__gallery { width: calc(100% - 28px); height: 320px; gap: 10px; margin-bottom: 20px; }
-  .about-roasters-cta__image { border-radius: 12px; }
+  .about-roasters-cta__panel { border-radius: 24px; padding: 28px 18px; gap: 28px; }
+  .about-roasters-cta__content { padding: 0; }
+  .about-roasters-cta__pillars { grid-template-columns: 1fr; gap: 10px; margin-bottom: 24px; }
+  .about-roasters-cta__showcase { grid-template-columns: 1fr; height: auto; gap: 14px; }
+  .about-roasters-cta__card-main, .about-roasters-cta__card-secondary { height: 250px; border-radius: 18px; }
+  .about-roasters-cta__actions { flex-direction: column; align-items: stretch; gap: 14px; }
+  .about-roasters-cta__actions .button { width: 100%; justify-content: center; }
+  .about-roasters-cta__sublink { justify-content: center; }
 }
 
 @media (max-width: 520px) {
