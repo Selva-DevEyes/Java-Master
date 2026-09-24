@@ -89,6 +89,9 @@
   .vision-mission__intro { max-width: 760px; grid-template-columns: 1fr; gap: 18px; }
   .vision-mission__intro .eyebrow { grid-column: auto; margin-bottom: 0; }
   .vision-mission__cards { grid-template-columns: 1fr; }
+  .process__tagline-banner { flex-direction: column; align-items: flex-start; gap: 24px; }
+  .process__tagline-action { width: 100%; }
+  .process__tagline-action .button { width: 100%; }
 }
 
 @media (max-width: 768px) {
@@ -220,6 +223,9 @@
   .about-roasters-cta__actions { flex-direction: column; align-items: stretch; gap: 14px; }
   .about-roasters-cta__actions .button { width: 100%; justify-content: center; }
   .about-roasters-cta__sublink { justify-content: center; }
+  .process__tagline-banner { padding: 24px 18px; border-radius: 20px; }
+  .process__tagline-sequence { gap: 8px 10px; }
+  .tagline-step .step-label { font-size: 1.22rem; }
 }
 
 @media (max-width: 520px) {
