@@ -20,10 +20,13 @@
   }
   .site-header { padding-block: 8px; }
   .nav { min-height: calc(var(--header-height) - 16px); gap: 10px; padding-inline: 14px; }
+  .site-header .brand { width: 68px; height: calc(var(--header-height) - 16px); }
+  .site-header .brand__logo { top: 5px; height: 100px; }
+  .site-header.is-scrolled .brand__logo { top: -3px; height: 86px; }
   .nav__actions { margin-left: auto; }
   .header-phone, .nav__actions .button { display: none; }
   .nav-toggle { display: block; }
-  .nav__menu { position: fixed; inset: var(--header-height) 0 auto; max-height: calc(100svh - var(--header-height)); padding: 18px max(20px, calc((100vw - var(--container)) / 2)) 28px; display: block; visibility: hidden; overflow-y: auto; opacity: 0; transform: translateY(-10px); border: 0; border-bottom: 1px solid rgba(244, 179, 122, 0.047); border-radius: 0 0 20px 20px; background: rgb(27, 18, 14); color: #fff; box-shadow: 0 24px 54px rgba(12,7,4,.32); -webkit-backdrop-filter: blur(24px); backdrop-filter: blur(24px); transition: visibility var(--ease), opacity var(--ease), transform var(--ease); }
+  .nav__menu { position: fixed; z-index: 3; inset: var(--header-height) 0 auto; max-height: calc(100svh - var(--header-height)); padding: 18px max(20px, calc((100vw - var(--container)) / 2)) 28px; display: block; visibility: hidden; overflow-y: auto; opacity: 0; transform: translateY(-10px); border: 0; border-bottom: 1px solid rgba(244, 179, 122, 0.047); border-radius: 0 0 20px 20px; background: rgb(27, 18, 14); color: #fff; box-shadow: 0 24px 54px rgba(12,7,4,.32); -webkit-backdrop-filter: blur(24px); backdrop-filter: blur(24px); transition: visibility var(--ease), opacity var(--ease), transform var(--ease); }
   .nav__menu.is-open { visibility: visible; opacity: 1; transform: none; }
   .nav__link, .dropdown__toggle { width: 100%; min-height: 50px; justify-content: space-between; padding-inline: 12px; border-bottom: 1px solid rgba(255,255,255,.11); border-radius: 8px; color: rgba(255,255,255,.84); font-size: 1rem; }
   .nav__link[aria-current="page"], .dropdown__toggle.is-active { background: transparent; }
@@ -84,6 +87,9 @@
   .about-roasters-cta__gallery { width: calc(100% - 56px); max-width: 720px; height: 500px; margin: 0 auto 28px; padding: 0; }
   .about-contact-panel__layout { grid-template-columns: 1fr; }
   .about-contact-panel__links { padding-top: 26px; padding-left: 0; border-top: 1px solid rgba(147,67,34,.22); border-left: 0; }
+  .vision-mission__intro { max-width: 760px; grid-template-columns: 1fr; gap: 18px; }
+  .vision-mission__intro .eyebrow { grid-column: auto; margin-bottom: 0; }
+  .vision-mission__cards { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 768px) {
@@ -94,6 +100,11 @@
   .section--curated-beans > .container { width: 100%; max-width: none; }
   .section--curated-beans .curated-beans__content { width: min(calc(100% - 40px), var(--container)); margin-inline: auto; }
   .section--curated-beans .curated-beans__media { width: 100%; max-height: 460px; margin: 0; align-self: stretch; }
+
+  .nav__menu { text-align: center; }
+  .nav__link, .dropdown__toggle, .nav__mobile-contact a { justify-content: center; }
+  .dropdown__menu { padding-left: 0; text-align: center; }
+  .nav__mobile-cta .button { width: min(100%, 300px); margin-inline: auto; }
 
   .hero, .hero__grid { min-height: 0; }
   .hero { display: block; }
@@ -133,6 +144,8 @@
   .about-sustainability__media, .about-sustainability__media img { min-height: 390px; }
   .about-roasters-cta__content { padding: 38px 28px 24px; }
   .about-roasters-cta__gallery { height: 460px; }
+  .purpose-card { min-height: 0; padding-top: 30px; }
+  .purpose-card__icon { position: relative; top: auto; left: auto; margin: 42px 0 30px; }
 }
 
 @media (max-width: 680px) {
@@ -148,6 +161,9 @@
   .section--curated-beans > .container { width: 100%; }
   .section--curated-beans .curated-beans__content { width: min(calc(100% - 32px), var(--container)); }
   .brand__logo { width: auto; height: 52px; }
+  .site-header .brand { width: 60px; }
+  .site-header .brand__logo { top: 5px; height: 88px; }
+  .site-header.is-scrolled .brand__logo { top: 0; height: 80px; }
   .site-footer .brand__logo { height: 80px; }
   .tech-roasters-layout { gap: 34px; }
   .tech-roasters__content h2 { font-size: var(--font-size-h2); }
@@ -183,6 +199,7 @@
   .footer__bottom { flex-direction: column; }
   .about-story__layout, .about-comparison__layout, .about-comparison__air-layout, .about-sustainability__layout { gap: 34px; }
   .about-story__opening { padding-left: 18px; }
+  .story-brand__body { padding-left: 18px; }
   .about-story__portrait { width: 100%; }
   .about-story__portrait-frame { padding: 8px; border-radius: 20px 20px 6px 20px; }
   .about-story__portrait-frame img { border-radius: 14px 14px 3px 14px; }

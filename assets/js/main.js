@@ -452,6 +452,127 @@
     }
   }
 
+  // Testimonial Slider
+  const testimonialSlider = document.querySelector("[data-testimonial-slider]");
+  if (testimonialSlider) {
+    const track = testimonialSlider.querySelector("[data-slider-track]");
+    const slides = Array.from(testimonialSlider.querySelectorAll(".testimonial-slider__slide"));
+    const dots = Array.from(testimonialSlider.querySelectorAll(".testimonial-slider__dot"));
+    const prevBtn = testimonialSlider.querySelector("[data-slider-prev]");
+    const nextBtn = testimonialSlider.querySelector("[data-slider-next]");
+    let currentIndex = 0;
+    let autoPlayTimer = null;
+
+    const goToSlide = (index) => {
+      currentIndex = (index + slides.length) % slides.length;
+      if (track) {
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+      }
+      slides.forEach((slide, i) => {
+        const isActive = i === currentIndex;
+        slide.classList.toggle("is-active", isActive);
+        slide.setAttribute("aria-hidden", String(!isActive));
+      });
+      dots.forEach((dot, i) => {
+        const isActive = i === currentIndex;
+        dot.classList.toggle("is-active", isActive);
+        dot.setAttribute("aria-selected", String(isActive));
+      });
+    };
+
+    const nextSlide = () => goToSlide(currentIndex + 1);
+    const prevSlide = () => goToSlide(currentIndex - 1);
+
+    prevBtn?.addEventListener("click", () => {
+      prevSlide();
+      restartAutoPlay();
+    });
+
+    nextBtn?.addEventListener("click", () => {
+      nextSlide();
+      restartAutoPlay();
+    });
+
+    dots.forEach((dot) => {
+      dot.addEventListener("click", () => {
+        const idx = parseInt(dot.getAttribute("data-slide-index"), 10);
+        if (!isNaN(idx)) {
+          goToSlide(idx);
+          restartAutoPlay();
+        }
+      });
+    });
+
+    testimonialSlider.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") {
+        prevSlide();
+        restartAutoPlay();
+      } else if (e.key === "ArrowRight") {
+        nextSlide();
+        restartAutoPlay();
+      }
+    });
+
+    let startX = 0;
+    let currentX = 0;
+    let isTouching = false;
+
+    testimonialSlider.addEventListener("touchstart", (e) => {
+      if (e.touches.length === 1) {
+        startX = e.touches[0].clientX;
+        currentX = startX;
+        isTouching = true;
+        stopAutoPlay();
+      }
+    }, { passive: true });
+
+    testimonialSlider.addEventListener("touchmove", (e) => {
+      if (isTouching && e.touches.length === 1) {
+        currentX = e.touches[0].clientX;
+      }
+    }, { passive: true });
+
+    testimonialSlider.addEventListener("touchend", () => {
+      if (isTouching) {
+        const diffX = currentX - startX;
+        if (Math.abs(diffX) > 40) {
+          if (diffX < 0) {
+            nextSlide();
+          } else {
+            prevSlide();
+          }
+        }
+        isTouching = false;
+        startAutoPlay();
+      }
+    });
+
+    const startAutoPlay = () => {
+      if (reduceMotion || slides.length <= 1) return;
+      stopAutoPlay();
+      autoPlayTimer = window.setInterval(nextSlide, 7000);
+    };
+
+    const stopAutoPlay = () => {
+      if (autoPlayTimer) {
+        window.clearInterval(autoPlayTimer);
+        autoPlayTimer = null;
+      }
+    };
+
+    const restartAutoPlay = () => {
+      stopAutoPlay();
+      startAutoPlay();
+    };
+
+    testimonialSlider.addEventListener("mouseenter", stopAutoPlay);
+    testimonialSlider.addEventListener("mouseleave", startAutoPlay);
+    testimonialSlider.addEventListener("focusin", stopAutoPlay);
+    testimonialSlider.addEventListener("focusout", startAutoPlay);
+
+    startAutoPlay();
+  }
+
   const revealTargets = document.querySelectorAll("main > section:not(:first-child), main > article > section:not(:first-child), .reveal");
   revealTargets.forEach((element) => element.classList.add("reveal"));
 
