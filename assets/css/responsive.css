@@ -165,7 +165,7 @@
   .site-header .brand { width: 60px; }
   .site-header .brand__logo { top: 5px; height: 88px; }
   .site-header.is-scrolled .brand__logo { top: 0; height: 80px; }
-  .site-footer .brand__logo { height: 80px; }
+  .site-footer .brand__logo { height: 96px; }
   .tech-roasters-layout { gap: 34px; }
   .tech-roasters__content h2 { font-size: var(--font-size-h2); }
   .tech-blueprint-frame { padding: 14px 14px 12px; }
