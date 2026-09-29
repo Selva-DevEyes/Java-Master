@@ -573,6 +573,36 @@
     startAutoPlay();
   }
 
+  // Product finish selector
+  document.querySelectorAll("[data-roaster-variants]").forEach((variantPicker) => {
+    const image = variantPicker.querySelector("[data-roaster-variant-image]");
+    const buttons = Array.from(variantPicker.querySelectorAll("[data-roaster-variant-src]"));
+    if (!image || buttons.length === 0) return;
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        if (button.getAttribute("aria-pressed") === "true") return;
+
+        const nextSource = button.getAttribute("data-roaster-variant-src");
+        const nextAlt = button.getAttribute("data-roaster-variant-alt");
+        if (!nextSource) return;
+
+        image.classList.add("is-changing");
+        const finishTransition = () => image.classList.remove("is-changing");
+        image.addEventListener("load", finishTransition, { once: true });
+        image.addEventListener("error", finishTransition, { once: true });
+        image.src = nextSource;
+        if (nextAlt) image.alt = nextAlt;
+
+        buttons.forEach((item) => {
+          const isActive = item === button;
+          item.classList.toggle("is-active", isActive);
+          item.setAttribute("aria-pressed", String(isActive));
+        });
+      });
+    });
+  });
+
   const revealTargets = document.querySelectorAll("main > section:not(:first-child), main > article > section:not(:first-child), .reveal");
   revealTargets.forEach((element) => element.classList.add("reveal"));
 

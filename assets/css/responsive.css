@@ -63,6 +63,8 @@
   .split--curated-beans { grid-template-columns: 1fr; gap: 32px; }
   .curated-beans__media { min-height: 340px; max-height: 460px; }
   .feature-grid, .support-cards-grid, .blog-grid { grid-template-columns: 1fr; }
+  .section--why-choose .feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .section--why-choose .feature-card,.section--why-choose .feature-card:nth-child(4n+1),.section--why-choose .feature-card:nth-child(4n) { min-height: 320px; grid-column: auto; }
   .support-feature-card { padding: 30px; }
   .support-feature-card__icon { margin-bottom: 22px; }
   .logo-list { grid-template-columns: repeat(3, 1fr); }
@@ -83,6 +85,7 @@
   .about-comparison--air .about-comparison__content { order: 2; }
   .about-sustainability__media, .about-sustainability__media img { min-height: 460px; }
   .about-roasters-cta__panel { min-height: 0; grid-template-columns: 1fr; gap: 36px; padding: clamp(32px, 5vw, 52px); }
+  .about-roasters-cta__showcase { order: 0; }
   .about-roasters-cta__showcase { height: 400px; min-height: 0; }
   .about-contact-panel__layout { grid-template-columns: 1fr; }
   .about-contact-panel__links { padding-top: 26px; padding-left: 0; border-top: 1px solid rgba(147,67,34,.22); border-left: 0; }
@@ -179,6 +182,10 @@
   .hero__media img { object-position: 76% 28%; }
   .hero .button-row .button { width: 100%; }
   .payback-grid { grid-template-columns: 1fr; }
+  .section--why-choose .feature-grid { grid-template-columns: 1fr; }
+  .section--why-choose .feature-card,.section--why-choose .feature-card:nth-child(4n+1),.section--why-choose .feature-card:nth-child(4n) { min-height: clamp(310px,88vw,380px); }
+  .section--why-choose .feature-card__body { padding: 30px 26px; }
+  .section--why-choose .feature-card__body::before { top: 24px; left: 24px; }
   .partner-image-grid { grid-template-columns: 1fr; gap: 20px; }
   .partner-logo-card { min-height: 184px; padding: 28px 20px 24px; }
   .partner-logo-card__logo { height: 126px; }
@@ -274,7 +281,8 @@
   .roaster-demo-banner__panel .button { justify-self: start; }
   .roaster-growth .container { grid-template-columns: 1fr; gap: 36px; }
   .roaster-growth__heading { position: static; max-width: 760px; }
-  .jm1500-features-grid, .profect-features-grid { grid-template-columns: 1fr; gap: 18px; }
+  .jm1500-features-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .profect-features-grid { grid-template-columns: 1fr; gap: 18px; }
   .jm1500-bento, .profect-bento { grid-template-columns: 1fr; }
   .jm1500-bento__card, .jm1500-bento__card--footprint, .jm1500-bento__card--materials, .jm1500-bento__card--capacity, .jm1500-bento__card--connectivity, .jm1500-bento__card--facility, .profect-bento__card { grid-column: 1 / -1; }
   .jm1500-bento__dl--facility { grid-template-columns: 1fr; }
@@ -305,6 +313,8 @@
   .roasters-hero__visual img, .jm1500-hero__visual img, .profect-hero__visual img { height: 370px; }
   .jm1500-hero__actions, .profect-hero__actions { flex-direction: column; align-items: stretch; }
   .jm1500-hero__actions .button, .profect-hero__actions .button { width: 100%; }
+  .jm1500-features-grid { grid-template-columns: 1fr; }
+  .jm1500-feature-card { min-height: 0; padding: 24px 22px; }
   .roaster-compare__specification .section__head h3 { font-size: var(--font-size-h2); }
   .roaster-compare__specification dl div, .jm1500-bento__dl div, .profect-bento__dl div { flex-direction: column; align-items: flex-start; gap: 4px; }
   .roaster-compare__specification dd, .jm1500-bento__dl dd, .profect-bento__dl dd { text-align: left; }
