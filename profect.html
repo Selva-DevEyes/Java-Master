@@ -244,12 +244,11 @@
           </div>
           <div class="contact-form roaster-request__form"><form data-validate data-integration-pending novalidate>
             <div class="form-grid">
-              <div class="field"><label for="request-full-name">Name*</label><input id="request-full-name" name="name" type="text" autocomplete="name" required aria-describedby="request-name-error"><span class="field__error" id="request-name-error"></span></div>
-              <div class="field"><label for="request-company">Business / Company*</label><input id="request-company" name="company" type="text" autocomplete="organization" required aria-describedby="request-company-error"><span class="field__error" id="request-company-error"></span></div>
+              <div class="field"><label for="request-first-name">First Name*</label><input id="request-first-name" name="first_name" type="text" autocomplete="given-name" required aria-describedby="request-first-name-error"><span class="field__error" id="request-first-name-error"></span></div>
+              <div class="field"><label for="request-last-name">Last Name*</label><input id="request-last-name" name="last_name" type="text" autocomplete="family-name" required aria-describedby="request-last-name-error"><span class="field__error" id="request-last-name-error"></span></div>
               <div class="field"><label for="request-email">Email*</label><input id="request-email" name="email" type="email" autocomplete="email" required aria-describedby="request-email-error"><span class="field__error" id="request-email-error"></span></div>
               <div class="field"><label for="request-phone">Phone</label><input id="request-phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() .-]{7,}" aria-describedby="request-phone-error"><span class="field__error" id="request-phone-error"></span></div>
-              <div class="field field--full"><label for="request-model">Preferred Roaster Model*</label><select id="request-model" name="preferred_model" required><option value="Profect 4.0" selected>Profect 4.0 (Up to 6.8 lb batches)</option><option value="JM 1500">JM 1500 (1–5.6 lb batches)</option><option value="Help me choose">Help me choose the right roaster</option></select><span class="field__error"></span></div>
-              <div class="field field--full"><label for="request-message">Message / Notes</label><textarea id="request-message" name="message" autocomplete="off" placeholder="Tell us about your roasting goals, volume requirements, or site specifications."></textarea><span class="field__error"></span></div>
+              <div class="field field--full"><label for="request-message">Message</label><textarea id="request-message" name="message" autocomplete="off"></textarea><span class="field__error"></span></div>
             </div>
             <div class="form-status" role="status" aria-live="polite"></div><button class="button button--accent" type="submit">Request a Demo</button>
           </form></div>

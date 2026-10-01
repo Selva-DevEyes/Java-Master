@@ -358,6 +358,17 @@
 
   document.querySelectorAll("[data-roi-calculator]").forEach(initRoiCalculator);
 
+  document.querySelectorAll("video[data-playback-rate]").forEach((video) => {
+    const playbackRate = Number(video.dataset.playbackRate);
+    if (!Number.isFinite(playbackRate) || playbackRate <= 0) return;
+    const applyPlaybackRate = () => {
+      video.defaultPlaybackRate = playbackRate;
+      video.playbackRate = playbackRate;
+    };
+    applyPlaybackRate();
+    video.addEventListener("loadedmetadata", applyPlaybackRate, { once: true });
+  });
+
   const validateField = (field) => {
     const error = field.closest(".field")?.querySelector(".field__error");
     let message = "";
